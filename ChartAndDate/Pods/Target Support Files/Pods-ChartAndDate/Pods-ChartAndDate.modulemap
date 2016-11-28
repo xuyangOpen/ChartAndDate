@@ -1,0 +1,6 @@
+framework module Pods_ChartAndDate {
+  umbrella header "Pods-ChartAndDate-umbrella.h"
+
+  export *
+  module * { export * }
+}
