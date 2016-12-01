@@ -14,6 +14,12 @@
 		2946963B1DEEA76D005F55B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294696391DEEA76D005F55B9 /* LaunchScreen.storyboard */; };
 		294696461DEEA76D005F55B9 /* ChartAndDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294696451DEEA76D005F55B9 /* ChartAndDateTests.swift */; };
 		294696511DEEA76D005F55B9 /* ChartAndDateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294696501DEEA76D005F55B9 /* ChartAndDateUITests.swift */; };
+		294696601DEECD00005F55B9 /* jsDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 2946965F1DEECD00005F55B9 /* jsDemo.js */; };
+		294696621DEFEA16005F55B9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294696611DEFEA16005F55B9 /* Person.swift */; };
+		294696641DEFEA45005F55B9 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294696631DEFEA45005F55B9 /* Pet.swift */; };
+		294696661DEFEA9E005F55B9 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294696651DEFEA9E005F55B9 /* PersonTableViewCell.swift */; };
+		294696681DEFED0B005F55B9 /* classDemo.js in Resources */ = {isa = PBXBuildFile; fileRef = 294696671DEFED0B005F55B9 /* classDemo.js */; };
+		F95FD70BA501EDF772F08894 /* Pods_ChartAndDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BAB53FAD5BDD8247F652A0 /* Pods_ChartAndDate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,14 @@
 		2946964C1DEEA76D005F55B9 /* ChartAndDateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartAndDateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		294696501DEEA76D005F55B9 /* ChartAndDateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAndDateUITests.swift; sourceTree = "<group>"; };
 		294696521DEEA76D005F55B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2946965F1DEECD00005F55B9 /* jsDemo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsDemo.js; sourceTree = "<group>"; };
+		294696611DEFEA16005F55B9 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		294696631DEFEA45005F55B9 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		294696651DEFEA9E005F55B9 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		294696671DEFED0B005F55B9 /* classDemo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = classDemo.js; sourceTree = "<group>"; };
+		60BAB53FAD5BDD8247F652A0 /* Pods_ChartAndDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartAndDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		767BA003682E752674947F4C /* Pods-ChartAndDate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartAndDate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartAndDate/Pods-ChartAndDate.release.xcconfig"; sourceTree = "<group>"; };
+		E764D00BD4E2C705F9339062 /* Pods-ChartAndDate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartAndDate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartAndDate/Pods-ChartAndDate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95FD70BA501EDF772F08894 /* Pods_ChartAndDate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				294696441DEEA76D005F55B9 /* ChartAndDateTests */,
 				2946964F1DEEA76D005F55B9 /* ChartAndDateUITests */,
 				2946962E1DEEA76D005F55B9 /* Products */,
+				E142558D2E46E992C8AE004B /* Pods */,
+				D5246DC12B9A0A2C01BE7C17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +120,11 @@
 				294696371DEEA76D005F55B9 /* Assets.xcassets */,
 				294696391DEEA76D005F55B9 /* LaunchScreen.storyboard */,
 				2946963C1DEEA76D005F55B9 /* Info.plist */,
+				2946965F1DEECD00005F55B9 /* jsDemo.js */,
+				294696671DEFED0B005F55B9 /* classDemo.js */,
+				294696611DEFEA16005F55B9 /* Person.swift */,
+				294696631DEFEA45005F55B9 /* Pet.swift */,
+				294696651DEFEA9E005F55B9 /* PersonTableViewCell.swift */,
 			);
 			path = ChartAndDate;
 			sourceTree = "<group>";
@@ -125,6 +147,23 @@
 			path = ChartAndDateUITests;
 			sourceTree = "<group>";
 		};
+		D5246DC12B9A0A2C01BE7C17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60BAB53FAD5BDD8247F652A0 /* Pods_ChartAndDate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E142558D2E46E992C8AE004B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E764D00BD4E2C705F9339062 /* Pods-ChartAndDate.debug.xcconfig */,
+				767BA003682E752674947F4C /* Pods-ChartAndDate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 294696551DEEA76D005F55B9 /* Build configuration list for PBXNativeTarget "ChartAndDate" */;
 			buildPhases = (
+				14E743E10EE3008B87ED6A61 /* [CP] Check Pods Manifest.lock */,
 				294696291DEEA76D005F55B9 /* Sources */,
 				2946962A1DEEA76D005F55B9 /* Frameworks */,
 				2946962B1DEEA76D005F55B9 /* Resources */,
+				913B6A2AB0EE1542E4678ABC /* [CP] Embed Pods Frameworks */,
+				B83096392DE24EF8F737C99C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +277,8 @@
 			files = (
 				2946963B1DEEA76D005F55B9 /* LaunchScreen.storyboard in Resources */,
 				294696381DEEA76D005F55B9 /* Assets.xcassets in Resources */,
+				294696601DEECD00005F55B9 /* jsDemo.js in Resources */,
+				294696681DEFED0B005F55B9 /* classDemo.js in Resources */,
 				294696361DEEA76D005F55B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,12 +299,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14E743E10EE3008B87ED6A61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		913B6A2AB0EE1542E4678ABC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartAndDate/Pods-ChartAndDate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83096392DE24EF8F737C99C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartAndDate/Pods-ChartAndDate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		294696291DEEA76D005F55B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294696621DEFEA16005F55B9 /* Person.swift in Sources */,
+				294696641DEFEA45005F55B9 /* Pet.swift in Sources */,
 				294696331DEEA76D005F55B9 /* ViewController.swift in Sources */,
+				294696661DEFEA9E005F55B9 /* PersonTableViewCell.swift in Sources */,
 				294696311DEEA76D005F55B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +504,7 @@
 		};
 		294696561DEEA76D005F55B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E764D00BD4E2C705F9339062 /* Pods-ChartAndDate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4E7S49PEAW;
@@ -423,6 +519,7 @@
 		};
 		294696571DEEA76D005F55B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767BA003682E752674947F4C /* Pods-ChartAndDate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4E7S49PEAW;
@@ -508,6 +605,7 @@
 				294696571DEEA76D005F55B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		294696581DEEA76D005F55B9 /* Build configuration list for PBXNativeTarget "ChartAndDateTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +614,7 @@
 				2946965A1DEEA76D005F55B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2946965B1DEEA76D005F55B9 /* Build configuration list for PBXNativeTarget "ChartAndDateUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +623,7 @@
 				2946965D1DEEA76D005F55B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
